@@ -1,0 +1,469 @@
+body{
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 250px;
+}
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+/* colores de la pagina color: #749f40;
+    background-color: #201913; */
+#formularioLogin{
+    border: solid 1px black;
+    background-color: antiquewhite;
+    padding: 7%;
+    width: 50%;
+    color: darkgray;
+    border-radius: 4px;
+    border-color: #749f40;
+    background-color: #201913;
+}
+.formNewUser{
+    border: groove 2px;
+    background-color: beige;
+    border-radius: 4px;
+    padding: 4%;
+    margin-bottom: 50px;
+}
+
+.header h1{
+    font-size: 55px;
+    height: 120px;
+    text-align: center;
+    margin: 0% 0% 5% 0%;
+}
+
+.header p{
+    float: left;
+    color: #749f40;
+}
+.headerMenu{
+    background-color: rgba(4, 24, 42, 0.5);
+}
+.headerMenu:hover{
+    box-shadow: 0 0 2px 1px rgba(116, 159, 64, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tith{
+    margin: 5% 0 0 0%;
+}
+
+.btnEnviarform{
+    margin-top: 5%;
+    margin-left: 52%;
+    min-width: 80px;
+}
+
+.bloquesUsuarios{
+    background-color: rgba(17, 53, 87, 0.5);
+    padding: 20px 0% 10px 90px;
+    margin: 10px;
+    border: solid 2px #749f40;
+    height: 250px;
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: height 1s;
+}
+.bloquesUsuarios label{
+    margin: 15px 0px 5px 5px;
+}
+.bloquesUsuarios img{
+    height: 120px;
+    width: 120px;
+    border-radius: 80px;
+    margin-bottom: 15px;
+}
+.bloquesUsuarios button{
+    width: 120px;
+    margin: 15px 0 0 0;
+}
+.bloquesUsuarios i{
+    color: #749f40;
+}
+.bloquesUsuarios:hover{
+    filter: none;
+-webkit-filter: grayscale(0%);
+}
+
+.infoRecursoComp img{
+    width: 350px;
+    max-height: 330px;
+    margin-right: 15px;
+
+}
+
+.btnReservar{
+    width: 120px;
+    margin: 15px 0 0 0;
+}
+
+.form-control {
+  font-family: "FontAwesome"
+}
+
+.botonesInfoUser{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.logo{
+    float: left;
+    margin: 1% 30px 30px 15px;
+    height: 125px;
+    width: 125px;
+    
+}
+.tituloHeader{
+    font-family: 'Montserrat', sans-serif;
+}
+.tituloHeader2{
+    font-family: 'Playfair Display SC', serif;
+}
+
+.logoLogin{
+    margin: 10px 0px 15px 55px;
+}
+
+.inputLogin{
+    margin: 0px 5px 0px 0px;
+}
+
+.btnVolverCentroUsu{
+    margin-bottom: 25px;
+}
+
+.hiddenErrores{
+    display: block;
+    text-align: center;
+    color: orange;
+    background: grey;
+}
+
+.blqsBotones i{
+    text-decoration: none;
+    color: dimgray;
+}
+/**********************************************************/
+#bloqueUsers{
+       margin: -10% 0% 0 0%;
+       float: right;
+}
+.bloqueUsers label{
+    width: 15%;
+}
+
+/* ********************************************************* */
+/* estilos del formulario Reservar recurso */
+.divform{
+    margin: 5%;
+    border: groove 2px;
+    height: 95%;
+    color: #749f40;
+    background-color: #201913;
+    border-radius: 20px;
+    
+}
+
+.blqderechaInfoRecurso{
+    height: 100%;
+}
+
+/*.blqderechaInfoRecurso p{
+    padding: 2%;
+    font-family: cursive;
+    background-color: #201913;
+    color: #749f40;
+    border: groove 2px;
+    overflow: auto;
+    height:35%;
+}*/
+
+.blqderechaInfoRecurso p{
+    padding: 2%;
+    font-family: cursive;
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 15px;
+    overflow: overlay;
+    border-radius: 20px;
+}
+
+.espacioTabla{
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+#tablaTable{
+    border: groove 2px #749f40;
+    background-color: lavender;
+}
+#tablaTable th{
+    background-color: #201913;
+    color: #749f40;
+}
+#formularioReservar select{
+    margin: 15px 0 15% 29%;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+#botonajax{
+    margin: 5% 3% 7% 18%;
+}
+
+#btnEnviarFormRecurso{
+    margin-left: 38%;
+}
+
+#formularioReservar{
+    margin: 30px 0 0 50px;
+}
+
+.hasDatepicker{
+      border-radius: 25px;
+}
+
+#usuarioLogueado{
+    text-align: right;
+    width: 60%;
+}
+
+#btn-cerrarSesion{
+    width: 25%;
+}
+
+body{
+    padding: 0px;
+    background: url(https://www.hawksford.com/-/media/brand-imagery/with-hawksford-blue-filter/hf-web-hero-full-db-21.jpg?h=900&la=en&mh=900&mw=1600&w=1600&hash=4000E9D8293B73857C5FA4D375ACC5C41387B9CF);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.blqRecurso{
+    height: 450px; 
+    margin-bottom: 25%;
+}
+
+.greenLogo{
+    color: #749f40;
+}
+
+.infoEmpresa{
+    margin-bottom: 3%;
+}
+.infoEmpresa p{
+    text-align: center;
+}
+
+.btnPanelAdmin{
+    margin: 20% 17% 0 0;
+    float: right;
+    width: 200px;
+}
+
+.btnAdminPanel{
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.blue{
+    color: cornflowerblue;
+}
+.red{
+    color: orangered;
+}
+.green{
+    color: #749f40;
+}
+.grey{
+    color: darkgrey;
+}
+
+/* ESTILO FOOTER */
+.footer-distributed{
+    background-color: rgba(41, 44, 47, 0.6);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 15px 0 0 40px;
+    margin-top: 80px;
+    max-height: 250px;
+    height: 200px;
+    bottom: 0px;
+    position: absolute;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 30px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+.logoFooter{
+    height: 50px;
+    width: 50px;   
+}
+.tituloFooter{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    float: right;
+    width: 90%;
+    margin-top: 25px;
+}
